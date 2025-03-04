@@ -1,1 +1,23 @@
 @import "tailwindcss";
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+@theme{
+    --color-primary: #40BFFF;
+    --color-secondary: #BCCDFE;
+    --color-discount: #FF4858;
+    --color-text:#373737;
+    --font-body:  "Poppins", sans-serif; 
+    --breakpoint-sm:  375 px;
+    --breakpoint-md: 576 px;
+    --breakpoint-lg: 992 px;
+}
+
+.container{
+  max-width: 1500px;
+  margin-inline: auto;
+  padding-inline: 0.75rem;
+}
+
+
