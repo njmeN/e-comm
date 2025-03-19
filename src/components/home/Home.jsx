@@ -1,19 +1,19 @@
 import React from 'react'
 import { Hero } from './hero'
-import { DealsSection } from './dealsSection'
+
 import { Categories } from './Categories'
 import { Banner } from './Banner'
 import { FeaturesSection } from './FeaturesSection'
 import { LatestNews } from './LatestNews'
 import { FeaturedProducts } from './FeaturedProducts'
 import { SearchBar } from './SearchBar'
-
+// import { DealsSection } from './DealsSection'
 
 export const Home = () => {
   return (
     <>
     <Hero/>
-    <DealsSection/>
+    {/* <DealsSection/> */}
     <Categories/>
     <Banner/>
     <FeaturesSection/>
