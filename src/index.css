@@ -7,9 +7,9 @@
     --color-discount: #FF4858;
     --color-text:#373737;
     --font-body:  "Poppins", sans-serif; 
-    --breakpoint-sm:  375 px;
-    --breakpoint-md: 576 px;
-    --breakpoint-lg: 992 px;
+    --breakpoint-sm:  375px;
+    --breakpoint-md: 576px;
+    --breakpoint-lg: 992px;
 }
 
 .container{
