@@ -1,5 +1,5 @@
 import React from 'react'
-import f from '../../assets/icons/figma.png'
+
 export const LatestNews = () => {
   const data = [
     {
